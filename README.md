@@ -4,7 +4,7 @@ A fastfood shop webpage!
 
 ## Acess:
 
-Access link: https://burguer-shop-dw4gukbn0-julianajrp.vercel.appQueued
+Access link: https://burguer-shop-ruddy.vercel.app
 
 
 ## Funcionalities
