@@ -1,0 +1,47 @@
+
+.cardCart{
+    width: 300px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: var(--grey0);
+}
+.juntos{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.imgCart{
+    width: 70px;
+    height: 70px;
+}
+.corProduct{
+    color: var(--grey100);
+}
+.corCategory{
+    color: var(--grey50);
+}
+.corRemover{
+    color: var(--grey4);
+    cursor: pointer;
+}
+.corRemover:hover{
+    color: var(--grey50);
+}
+.itensNum{
+    color: var(--grey100);
+}
+.botoesItens{
+    border: 2px solid var(--grey4);
+    border-radius: 10px;
+}
+.btnItens{
+    padding: 2px 7px;
+    border: 2px solid transparent;
+    border-radius: 5px;
+}
+.btnItens:hover{
+    color: var(--grey4);
+}

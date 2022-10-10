@@ -1,0 +1,12 @@
+.divTotal{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+.total{
+    color: var(--grey100);
+}
+.valor{
+    color: var(--colorPrimary);
+}

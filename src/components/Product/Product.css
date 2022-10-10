@@ -1,0 +1,40 @@
+.cardTodo{
+    border: 2px solid var(--grey20);
+    border-radius: 5px;
+    width: 250px;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+}
+.cardTodo:hover{
+    border: 2px solid var(--grey100);
+}
+.imgCard{
+    width: 177px;
+    max-height: 100%;
+}
+.divImgCard{
+    width: 245px;
+    height: 150px;
+    background-color: var(--grey0);
+}
+.divDescCard{
+    width: 300px;
+    height: 346px;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    padding: 15px;
+    gap: 10px;
+    text-align: left;
+}
+.tituloCard{
+    color: var(--grey100);
+}
+.categoriaCard{
+    color: var(--grey4);
+}
+.precoCard{
+    color: var(--colorPrimary);
+}

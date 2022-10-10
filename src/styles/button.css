@@ -1,0 +1,67 @@
+.btn{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+    
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+    transition:  .4s;
+}
+.btnVerde{
+    width: 107px;
+    height: 40px;
+    padding: 0px 20px;
+    /* color-primary */
+
+    background: var(--colorPrimary);
+    /* color-primary */
+
+    border: 2px solid var(--colorPrimary);
+    border-radius: 8px;
+    color: var(--white);
+}
+.btnVerde:hover{
+    /* color-primary-50 */
+
+    background: var(--colorPrimary50);
+    /* color-primary-50 */
+
+    border: 2px solid var(--colorPrimary50);
+    border-radius: 8px;
+}
+.btnCinza{
+    width: 220px;
+    height: 60px;
+   
+    /* grey-100 */
+
+    background: var(--grey20);
+    /* grey-100 */
+
+    border: 2px solid var(--grey20);
+    border-radius: 8px;
+    color: var(--grey50);
+    font-weight: 600;
+    font-size: 16px;
+}
+.btnCinza:hover{
+    /* grey-300 */
+
+    background: var(--grey50);
+    /* grey-300 */
+
+    border: 2px solid var(--grey50);
+    border-radius: 8px;
+    color: var(--grey20);
+}
+
+@media (max-width: 720px){
+    .btnVerde{
+        height: 40px;
+    }
+    .btnCinza{
+        height: 40px;
+    }
+}

@@ -1,0 +1,388 @@
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 80px;
+    background-color: var(--grey0);
+    gap: 500px;
+}
+.barraPesquisa{
+    display: flex;
+    flex-direction: row;
+    width: 365px;
+    height: 60px;
+    border-radius: 8px;
+    background: var(--bcgColor);
+    /* Gray 5 */
+    
+    border: 2px solid var(--grey20);
+}
+.divPesquisa{
+    margin-top: 10px;
+}
+
+.pesquisa{
+    position: absolute;
+    top: 20px;
+    left: 1068px;
+    
+}
+@media (max-width:1012px){
+    .pesquisa{
+        position: absolute;
+        top: 20px;
+        left: 878px;
+        
+    }
+}
+@media (max-width:930px){
+    .pesquisa{
+        position: absolute;
+        top: 20px;
+        left: 800px;
+        
+    }
+    .logo{
+        margin-top: 30px;
+        width: 120px;
+        height: 25px;
+    }
+    nav{
+        gap: 400px;
+    }
+
+}
+@media (max-width:952px){
+    .pesquisa{
+        position: absolute;
+        top: 20px;
+        left: 710px;
+        
+    }
+    .logo{
+        margin-top: 30px;
+        width: 120px;
+        height: 25px;
+    }
+    nav{
+        gap: 310px;
+    }
+
+}
+@media (max-width:789px){
+    .pesquisa{
+        position: absolute;
+        top: 20px;
+        left: 635px;
+        
+    }
+    .logo{
+        margin-top: 30px;
+        width: 120px;
+        height: 25px;
+    }
+    nav{
+        gap: 250px;
+    }
+
+}
+@media (max-width:729px){
+    .pesquisa{
+        position: absolute;
+        top: 20px;
+        left: 589px;
+        
+    }
+    .logo{
+        margin-top: 30px;
+        width: 120px;
+        height: 25px;
+    }
+    nav{
+        gap: 190px;
+    }
+
+}
+@media (max-width:684px){
+    .pesquisa{
+        position: absolute;
+        top: 20px;
+        left: 549px;
+        
+    }
+    .logo{
+        margin-top: 30px;
+        width: 120px;
+        height: 25px;
+    }
+    nav{
+        gap: 150px;
+    }
+
+}
+@media (max-width:619px){
+    .pesquisa{
+        position: absolute;
+        top: 20px;
+        left: 490px;
+        
+    }
+    .logo{
+        margin-top: 30px;
+        width: 120px;
+        height: 25px;
+    }
+    nav{
+        gap: 100px;
+    }
+
+}
+@media (max-width:619px){
+    .pesquisa{
+        position: absolute;
+        top: 20px;
+        left: 420px;
+        
+    }
+    .logo{
+        margin-top: 30px;
+        width: 120px;
+        height: 25px;
+    }
+    nav{
+        gap: 45px;
+    }
+}
+@media (max-width:509px){
+    .pesquisa{
+        position: absolute;
+        top: 20px;
+        left: 376px;
+        
+    }
+    .logo{
+        margin-top: 30px;
+        width: 120px;
+        height: 25px;
+    }
+    nav{
+        gap: 5px;
+    }
+}
+@media (max-width:500px){
+    .pesquisa{
+        position: absolute;
+        top: 20px;
+        left: 346px;
+        
+    }
+    .logo{
+        margin-top: 30px;
+        width: 120px;
+        height: 25px;
+    }
+    nav{
+        gap: 5px;
+    }
+    .barraPesquisa{
+        display: flex;
+        flex-direction: row;
+        width: 305px;
+        height: 60px;
+        border-radius: 8px;
+        background: var(--bcgColor);
+        /* Gray 5 */
+        
+        border: 2px solid var(--grey20);
+    }
+    
+}
+@media (max-width:460px){
+    .pesquisa{
+        position: absolute;
+        top: 20px;
+        left: 306px;
+        
+    }
+    .logo{
+        margin-top: 30px;
+        width: 120px;
+        height: 25px;
+    }
+    nav{
+        gap: 5px;
+    }
+    .barraPesquisa{
+        display: flex;
+        flex-direction: row;
+        width: 255px;
+        height: 60px;
+        border-radius: 8px;
+        background: var(--bcgColor);
+        /* Gray 5 */
+        
+        border: 2px solid var(--grey20);
+    }
+    
+}
+@media (max-width:420px){
+    .pesquisa{
+        position: absolute;
+        top: 20px;
+        left: 276px;
+        
+    }
+    .logo{
+        margin-top: 30px;
+        width: 120px;
+        height: 25px;
+    }
+    nav{
+        gap: 5px;
+    }
+    .barraPesquisa{
+        display: flex;
+        flex-direction: row;
+        width: 255px;
+        height: 60px;
+        border-radius: 8px;
+        background: var(--bcgColor);
+        /* Gray 5 */
+        
+        border: 2px solid var(--grey20);
+    }
+    
+}
+@media (max-width:420px){
+    .pesquisa{
+        position: absolute;
+        top: 20px;
+        left: 276px;
+        
+    }
+    .logo{
+        margin-top: 30px;
+        width: 120px;
+        height: 25px;
+    }
+    nav{
+        gap: 5px;
+    }
+    .barraPesquisa{
+        display: flex;
+        flex-direction: row;
+        width: 255px;
+        height: 60px;
+        border-radius: 8px;
+        background: var(--bcgColor);
+        /* Gray 5 */
+        
+        border: 2px solid var(--grey20);
+    }
+    
+}
+@media (max-width:400px){
+    .pesquisa{
+        position: absolute;
+        top: 85px;
+        left: 196px;
+        
+    }
+    .logo{
+        margin-top: 30px;
+        width: 120px;
+        height: 25px;
+
+    }
+    nav{
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        height: 140px;
+        background-color: var(--grey0);
+        justify-content: center;
+        align-items: center;
+    }
+    .barraPesquisa{
+        display: flex;
+        flex-direction: row;
+        width: 255px;
+        height: 60px;
+        border-radius: 8px;
+        background: var(--bcgColor);
+        /* Gray 5 */
+        
+        border: 2px solid var(--grey20);
+    }
+    
+}
+@media (max-width:350px){
+    .pesquisa{
+        position: absolute;
+        top: 85px;
+        left: 176px;
+        
+    }
+    .logo{
+        margin-top: 30px;
+        width: 120px;
+        height: 25px;
+
+    }
+    nav{
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        height: 140px;
+        background-color: var(--grey0);
+        justify-content: center;
+        align-items: center;
+    }
+    .barraPesquisa{
+        display: flex;
+        flex-direction: row;
+        width: 255px;
+        height: 60px;
+        border-radius: 8px;
+        background: var(--bcgColor);
+        /* Gray 5 */
+        
+        border: 2px solid var(--grey20);
+    }
+    
+}
+@media (max-width:332px){
+    .pesquisa{
+        position: absolute;
+        top: 85px;
+        left: 166px;
+        
+    }
+    .logo{
+        margin-top: 30px;
+        width: 120px;
+        height: 25px;
+
+    }
+    nav{
+        gap: 5px;
+        display: flex;
+        flex-direction: column;
+        height: 140px;
+        background-color: var(--grey0);
+        justify-content: center;
+        align-items: center;
+    }
+    .barraPesquisa{
+        display: flex;
+        flex-direction: row;
+        width: 255px;
+        height: 60px;
+        border-radius: 8px;
+        background: var(--bcgColor);
+        /* Gray 5 */
+        
+        border: 2px solid var(--grey20);
+    }
+    
+}
